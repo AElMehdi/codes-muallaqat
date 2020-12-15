@@ -8,6 +8,7 @@ import com.aelmehdi.tripservicekata.user.UserSession;
 
 public class TripService {
 
+   // TODO: To be refactored
    public List<Trip> getTripsByUser(User user) throws UserNotLoggedInException {
       List<Trip> tripList = new ArrayList<>();
       User loggedUser = getLoggedUser();
